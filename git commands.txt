@@ -1,0 +1,7 @@
+1) git init :- It initializes the current directory as git directory which now we can use in git to track the progress of our project
+2) git status :- It shows the current status of git directory, and gives info about commited, staged and not commited files.
+3) git log :- It shows commit history of our git directory or project on which we are working.
+4) git add --a :- It pushes all the modified files to staging area.
+5) git commit -m "any msg" :- It commits all the files which are in the staging area.
+6) rm -rf .git :- It deletes all the history of the git directory.
+7) git add file_name :- It adds a perticuler file to staging area.
