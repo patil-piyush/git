@@ -1,7 +1,20 @@
 1) git init :- It initializes the current directory as git directory which now we can use in git to track the progress of our project
 2) git status :- It shows the current status of git directory, and gives info about commited, staged and not commited files.
 3) git log :- It shows commit history of our git directory or project on which we are working.
-4) git add --a :- It pushes all the modified files to staging area.
+4) git add --a //or// git add . :- It pushes all the modified files to staging area.
 5) git commit -m "any msg" :- It commits all the files which are in the staging area.
 6) rm -rf .git :- It deletes all the history of the git directory.
 7) git add file_name :- It adds a perticuler file to staging area.
+8) git diff :- It compares working directory and staging area and displays the result.
+9) git diff --staged :- It compares the previous commit with the current staging area.
+10) git commit -a -m "any msg" :- It directly commits all the files which are being tracked without getting them into staging area (by skipping the staging area). But it can not commit the untracked files, files has to be tracked.
+11) git rm file_name :- It deletes the file and adds the change to staging area.
+12) git mv file_name new_name :- It renames the file and adds to staging area.
+13) git rm --cached file_name :- It stops tracking the file without getting it deleted.
+14) git log -p :- It shows the commit history with all the changes every commit has when it being commited.
+15) git log -p -n :- Here n is representing a natural number. the given command shows history of n number of commits as well as the changes that has been done in every commit. 
+16) git log --stat :- It shows a brief details of commits that has been done.
+17) git log --pretty=oneline :- It shows every commit detailes in one line.
+18) git log --pretty=short :- It shows every commit detailes inshort.
+19) git log --since=2days :- It shows every commit that has been done in last two days.
+20) git commit --amend :- edit the commit.
