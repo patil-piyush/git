@@ -20,4 +20,5 @@
 20) git commit --amend :- edit the commit.
 21) git restore --staged file_name :- To unstage a file.
 22) git checkout -- file_name :- It restores the content of the file which is modified.
-23) 
+23) git checkout -f :- it removes all the changes you have made and returns to last commited condition.
+
