@@ -18,3 +18,6 @@
 18) git log --pretty=short :- It shows every commit detailes inshort.
 19) git log --since=2days :- It shows every commit that has been done in last two days.
 20) git commit --amend :- edit the commit.
+21) git restore --staged file_name :- To unstage a file.
+22) git checkout -- file_name :- It restores the content of the file which is modified.
+23) 
