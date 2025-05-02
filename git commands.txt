@@ -32,4 +32,9 @@
 32) git branch --no-merged   :- shows the current branch and the not already merged branches
 33) git branch -d Branch_Name    :- Deletes the branch named as Branch_Name ,, if has not been committed - shows error
 34) git branch -D Branch_Name    :- Deletes the branch named as Branch_Name without showing any error even if it's not been committed
-35)  
+
+
+35) git push origin Branch_Name  :- publishes the branch named as Branch_Name to the remote repo  -- you must be present in the branch named as Branch_Name before running this command
+36) git push origin Branch_Name:New_Branch_Name  :- publishes the branch named as Branch_Name to the remote repo and renames it by New_Branch_Name  -- you must be present in the branch named as Branch_Name before running this command
+37) git push -d origin Branch_Name   :- deletes the branch named as Branch_Name from remote repo
+
