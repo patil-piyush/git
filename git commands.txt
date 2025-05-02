@@ -21,4 +21,15 @@
 21) git restore --staged file_name :- To unstage a file.
 22) git checkout -- file_name :- It restores the content of the file which is modified.
 23) git checkout -f :- it removes all the changes you have made and returns to last commited condition.
-24) git config --global alias.NICKNAME 'ORIGINAL_NAME'  :- it gives a nickname to a command and you can run it by it's nickname as well.
+24) git config --global alias.NICKNAME 'ORIGINAL_NAME'  :- it gives a nickname to a command and you can run it by it's nickname as well.
+
+25) git checkout -b Branch_Name    :- creates a new branch with named as Branch_Name
+26) git checkout Branch_Name    :- switches to the branch with named as Branch_Name
+27) git branch   :- shows all existing branches
+29) git merge Branch_Name    :- merges the branch with named as Branch_Name to the master branch
+30) git branch -v   :- shows all present branches and the last commit of each branch
+31) git branch --merged   :- shows the current branch and the already merged branches
+32) git branch --no-merged   :- shows the current branch and the not already merged branches
+33) git branch -d Branch_Name    :- Deletes the branch named as Branch_Name ,, if has not been committed - shows error
+34) git branch -D Branch_Name    :- Deletes the branch named as Branch_Name without showing any error even if it's not been committed
+35)  
